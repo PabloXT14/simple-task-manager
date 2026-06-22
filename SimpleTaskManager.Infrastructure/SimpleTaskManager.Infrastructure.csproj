@@ -7,12 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SimpleTaskManager.Communication\SimpleTaskManager.Communication.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Services\" />
-      <Folder Include="UseCases\" />
+      <Folder Include="Data\" />
+      <Folder Include="Repositories\" />
     </ItemGroup>
 
 </Project>

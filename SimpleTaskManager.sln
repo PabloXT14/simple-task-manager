@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Communica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Application", "SimpleTaskManager.Application\SimpleTaskManager.Application.csproj", "{307599F8-0C61-4887-8217-4429B7C73CE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Infrastructure", "SimpleTaskManager.Infrastructure\SimpleTaskManager.Infrastructure.csproj", "{20B584F2-2D84-4544-B58C-353F6E797C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Domain", "SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj", "{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{307599F8-0C61-4887-8217-4429B7C73CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307599F8-0C61-4887-8217-4429B7C73CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307599F8-0C61-4887-8217-4429B7C73CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B584F2-2D84-4544-B58C-353F6E797C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B584F2-2D84-4544-B58C-353F6E797C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B584F2-2D84-4544-B58C-353F6E797C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B584F2-2D84-4544-B58C-353F6E797C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
