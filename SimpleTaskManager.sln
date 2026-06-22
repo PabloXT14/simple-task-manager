@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.API", "SimpleTaskManager.API\SimpleTaskManager.API.csproj", "{3F66078E-22DD-48DC-A70D-DB8AD4D06D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Communication", "SimpleTaskManager.Communication\SimpleTaskManager.Communication.csproj", "{2DE9D5E9-64E8-4405-AAB0-968EB4648138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Application", "SimpleTaskManager.Application\SimpleTaskManager.Application.csproj", "{307599F8-0C61-4887-8217-4429B7C73CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F66078E-22DD-48DC-A70D-DB8AD4D06D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F66078E-22DD-48DC-A70D-DB8AD4D06D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F66078E-22DD-48DC-A70D-DB8AD4D06D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F66078E-22DD-48DC-A70D-DB8AD4D06D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE9D5E9-64E8-4405-AAB0-968EB4648138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE9D5E9-64E8-4405-AAB0-968EB4648138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE9D5E9-64E8-4405-AAB0-968EB4648138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE9D5E9-64E8-4405-AAB0-968EB4648138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307599F8-0C61-4887-8217-4429B7C73CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307599F8-0C61-4887-8217-4429B7C73CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307599F8-0C61-4887-8217-4429B7C73CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307599F8-0C61-4887-8217-4429B7C73CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
