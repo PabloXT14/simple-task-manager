@@ -11,8 +11,4 @@
       <Folder Include="Repositories\" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
-    </ItemGroup>
-
 </Project>
