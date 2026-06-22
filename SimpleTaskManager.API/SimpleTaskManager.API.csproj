@@ -14,6 +14,12 @@
     <ItemGroup>
       <ProjectReference Include="..\SimpleTaskManager.Application\SimpleTaskManager.Application.csproj" />
       <ProjectReference Include="..\SimpleTaskManager.Communication\SimpleTaskManager.Communication.csproj" />
+      <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
+      <ProjectReference Include="..\SimpleTaskManager.Infrastructure\SimpleTaskManager.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>

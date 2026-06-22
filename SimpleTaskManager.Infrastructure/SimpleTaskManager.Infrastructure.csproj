@@ -7,8 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Requests\" />
-      <Folder Include="Responses\" />
+      <Folder Include="Data\" />
+      <Folder Include="Repositories\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
     </ItemGroup>
 
 </Project>
