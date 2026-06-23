@@ -7,8 +7,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Data\" />
       <Folder Include="Repositories\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SimpleTaskManager.Communication\SimpleTaskManager.Communication.csproj" />
+      <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
     </ItemGroup>
 
 </Project>

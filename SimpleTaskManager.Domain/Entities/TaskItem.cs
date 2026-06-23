@@ -1,4 +1,5 @@
 using SimpleTaskManager.Domain.Enums;
+using TaskStatus = SimpleTaskManager.Domain.Enums.TaskStatus;
 
 namespace SimpleTaskManager.Domain.Entities;
 
@@ -9,5 +10,5 @@ public class TaskItem
     public string? Description { get; set; }
     public PriorityType Priority { get; set; }
     public DateTime DueDate { get; set; }
-    public Status Status { get; set; }
+    public TaskStatus TaskStatus { get; set; }
 }
