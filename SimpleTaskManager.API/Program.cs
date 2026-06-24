@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using SimpleTaskManager.Infrastructure.Data;
 
@@ -34,6 +35,14 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/hello", () => "Hello World!");
+app.MapGet("/health", () =>
+{
+    return Results.Ok(new
+    {
+        status = "ok",
+        service = "SimpleTaskManager API",
+        version = "1.0.0"
+    });
+});
 
 app.Run();
