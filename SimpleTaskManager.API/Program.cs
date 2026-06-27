@@ -1,6 +1,5 @@
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.EntityFrameworkCore;
-using SimpleTaskManager.Infrastructure.Data;
+using SimpleTaskManager.Application;
+using SimpleTaskManager.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,12 +10,9 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlite(
-        builder.Configuration.GetConnectionString("DefaultConnection")
-    );
-});
+// Add application and infrastructure services
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
