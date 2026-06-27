@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Domain", "SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj", "{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager.Exception", "SimpleTaskManager.Exception\SimpleTaskManager.Exception.csproj", "{29F8A5BC-0575-47E2-A670-A8A319B24E18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009A0683-C7F4-4BE4-BFAE-EEB3E2B8D08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F8A5BC-0575-47E2-A670-A8A319B24E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F8A5BC-0575-47E2-A670-A8A319B24E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F8A5BC-0575-47E2-A670-A8A319B24E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F8A5BC-0575-47E2-A670-A8A319B24E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

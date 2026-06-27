@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using SimpleTaskManager.Application.UseCases.Tasks.Register;
+using SimpleTaskManager.Communication.Requests;
+using SimpleTaskManager.Communication.Responses;
 
 namespace SimpleTaskManager.API.Controllers;
 
@@ -6,13 +9,16 @@ namespace SimpleTaskManager.API.Controllers;
 [ApiController]
 public class TaskController : ControllerBase
 {
-    [HttpGet]
-    public IActionResult Get()
+    [HttpPost]
+    [ProducesResponseType(typeof(ResponseRegisterTaskJson), StatusCodes.Status201Created)]
+    public async Task<IActionResult> Register(
+        [FromServices] RegisterTaskUseCase useCase,
+        [FromBody] RequestRegisterTaskJson request
+    )
     {
-        return Ok(new
-        {
-            message = "Hello from TaskController!"
-        });
+        var response = await useCase.ExecuteAsync(request);
+        
+        return Created(string.Empty, response);
     }
 }
 

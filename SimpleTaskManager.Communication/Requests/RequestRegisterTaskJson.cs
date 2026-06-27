@@ -1,13 +1,12 @@
 using SimpleTaskManager.Domain.Enums;
 using TaskStatus = SimpleTaskManager.Domain.Enums.TaskStatus;
 
-namespace SimpleTaskManager.Domain.Entities;
+namespace SimpleTaskManager.Communication.Requests;
 
-public class TaskItem
+public class RequestRegisterTaskJson
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
     public string Name { get; set; } = string.Empty;
-    public string? Description { get; set; }
+    public string? Description { get; set; } = string.Empty;
     public PriorityType Priority { get; set; }
     public DateTime DueDate { get; set; }
     public TaskStatus TaskStatus { get; set; }
