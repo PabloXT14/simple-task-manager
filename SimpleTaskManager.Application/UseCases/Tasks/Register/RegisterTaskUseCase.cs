@@ -17,7 +17,7 @@ public class RegisterTaskUseCase
         _dbContext = dbContext;
     }
     
-    public async Task<ResponseRegisterTaskJson> ExecuteAsync(RequestRegisterTaskJson request)
+    public async Task<ResponseRegisterTaskJson> Execute(RequestRegisterTaskJson request)
     {
         Validate(request);
         
