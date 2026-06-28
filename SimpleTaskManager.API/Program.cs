@@ -1,14 +1,17 @@
+using SimpleTaskManager.API.Filters;
 using SimpleTaskManager.Application;
 using SimpleTaskManager.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 builder.Services.AddControllers();
-
 builder.Services.AddOpenApi();
-
 builder.Services.AddSwaggerGen();
+
+// Exception handling middleware
+builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
 // Add application and infrastructure services
 builder.Services.AddApplication();

@@ -9,12 +9,16 @@
     <ItemGroup>
       <ProjectReference Include="..\SimpleTaskManager.Communication\SimpleTaskManager.Communication.csproj" />
       <ProjectReference Include="..\SimpleTaskManager.Domain\SimpleTaskManager.Domain.csproj" />
+      <ProjectReference Include="..\SimpleTaskManager.Exception\SimpleTaskManager.Exception.csproj" />
       <ProjectReference Include="..\SimpleTaskManager.Infrastructure\SimpleTaskManager.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Services\" />
-      <Folder Include="UseCases\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.1.1" />
     </ItemGroup>
 
 </Project>
